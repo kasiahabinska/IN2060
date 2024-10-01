@@ -1,0 +1,53 @@
+$date
+	Wed Sep 25 18:54:51 2024
+$end
+$version
+	QuestaSim Version 2020.4
+$end
+$timescale
+	1fs
+$end
+$scope module tb_fulladder $end
+$scope module DUT $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # cin $end
+$var wire 1 $ s $end
+$var wire 1 % cout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0$
+0%
+#20000000
+1!
+1$
+#30000000
+1"
+0!
+#40000000
+1!
+1%
+0$
+#50000000
+1#
+0"
+0!
+0%
+1$
+#60000000
+1!
+1%
+0$
+#70000000
+1"
+0!
+#80000000
+1!
+1$

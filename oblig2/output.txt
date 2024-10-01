@@ -1,0 +1,25 @@
+# Loading project cla
+# Compile of fulladder.vhd was successful.
+# Compile of cla_block.vhd was successful.
+# Compile of tb_cla_block.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.tb_cla_block
+# vsim work.tb_cla_block 
+# Start time: 15:13:27 on Sep 30,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading std.env(body)
+# Loading work.tb_cla_block(behavioral)#1
+add wave -position end  sim:/tb_cla_block/DUT/a
+add wave -position end  sim:/tb_cla_block/DUT/b
+add wave -position end  sim:/tb_cla_block/DUT/s
+add wave -position end  sim:/tb_cla_block/DUT/p
+add wave -position end  sim:/tb_cla_block/DUT/g
+add wave -position end  sim:/tb_cla_block/DUT/c
+add wave -position end  sim:/tb_cla_block/DUT/p30
+add wave -position end  sim:/tb_cla_block/DUT/g30
+run -all
+# ** Note: Ferdig!
+#    Time: 100 ns  Iteration: 0  Instance: /tb_cla_block
